@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(255, 227, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+    
+ .head{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    margin: 20px;
+ }   
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(37, 14, 90, 0.212);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.navigasi ul{
+    list-style: none;
+    display: flex;
+    
+    
+}
+.navigasi a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(109, 83, 83);
+    margin:20px;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.kotak{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 25vw;
+    height: 80vh;
+    background-color: rgba(116, 76, 110, 0.397);
+    border-radius: 20px ;
+    margin: 70px;
+    padding: 20px;
+    gap: 5px;
+}
+
+.profile{
+    color: rgba(37, 14, 90, 0.959);
+}
+
+.circle-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid rgba(37, 14, 90, 0.959) ;
+  }
+
+.kotak2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 10%;
+    background-color: rgb(227, 225, 231);
+    border-radius: 20px;
+    margin: 5px;
+  
+}
+
+.kotak2 a{
+    text-decoration: none;
+    color: rgba(63, 40, 61, 0.952) ;
+}
+
+.button{
+    width: 70px;
+    height: 40;
+    border-color:rgba(37, 14, 90, 0.212) ; 
+    border-radius: 20px;
+}
